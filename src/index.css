@@ -1,0 +1,43 @@
+.infolist {
+  margin: auto; 
+}
+h1{
+  text-align: center;
+  color: blue;
+}
+
+.card {
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto; 
+  max-width: 700px; 
+}
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.card input {
+  padding-left: 5px;
+  margin-left:10px ;
+  border: 1px solid #ccc;
+}
+
+.card button {
+  margin-left:10px ;
+  padding: 5px 10px;
+  background-color: #2344d7;
+  border: none;
+  border-radius:10px ;
+  cursor: pointer;
+  color: white;
+}
+.card button:hover{
+  background-color: #2344d798;
+}
